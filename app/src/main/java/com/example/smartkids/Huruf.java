@@ -18,4 +18,8 @@ public class Huruf extends AppCompatActivity {
         Intent myIntent = new Intent(this,MulaiHuruf.class);
         startActivity(myIntent);
     }
+    public void huruf_selesai(View view ){
+        Intent myIntent = new Intent(this,Selesai.class);
+        startActivity(myIntent);
+    }
 }

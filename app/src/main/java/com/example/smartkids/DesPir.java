@@ -6,19 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MulaiBuah extends AppCompatActivity {
+public class DesPir extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mulai_buah);
+        setContentView(R.layout.activity_des_pir);
     }
-    public void mulaiBuah(View view ){
+    public void backPir(View view ){
         Intent myIntent = new Intent(this,Buah.class);
-        startActivity(myIntent);
-    }
-    public void backBuah(View view ){
-        Intent myIntent = new Intent(this,MainActivity.class);
         startActivity(myIntent);
     }
 }

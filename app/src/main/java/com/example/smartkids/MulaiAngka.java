@@ -15,7 +15,7 @@ public class MulaiAngka extends AppCompatActivity {
     }
 
     public void mulaiAngka(View view ){
-        Intent myIntent = new Intent(this,Huruf.class);
+        Intent myIntent = new Intent(this,Angka.class);
         startActivity(myIntent);
     }
     public void backAngka(View view ){

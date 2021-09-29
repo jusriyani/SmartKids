@@ -6,20 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MulaiHewan extends AppCompatActivity {
+public class DesKuda extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mulai_hewan);
+        setContentView(R.layout.activity_des_kuda);
     }
-
-    public void mulaiHewan(View view ){
+    public void backKuda(View view ){
         Intent myIntent = new Intent(this,Hewan.class);
-        startActivity(myIntent);
-    }
-    public void backHewan(View view ){
-        Intent myIntent = new Intent(this,MainActivity.class);
         startActivity(myIntent);
     }
 }

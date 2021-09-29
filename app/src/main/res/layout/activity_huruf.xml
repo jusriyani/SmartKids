@@ -1118,7 +1118,8 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:background="@drawable/round_btn"
-                app:backgroundTint="@color/green">
+                app:backgroundTint="@color/green"
+                android:onClick="huruf_selesai">
             </Button>
         </LinearLayout>
 

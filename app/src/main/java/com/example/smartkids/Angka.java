@@ -6,19 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MulaiBuah extends AppCompatActivity {
+public class Angka extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mulai_buah);
+        setContentView(R.layout.activity_angka);
     }
-    public void mulaiBuah(View view ){
-        Intent myIntent = new Intent(this,Buah.class);
+    public void backAngka(View view ){
+        Intent myIntent = new Intent(this,MulaiAngka.class);
         startActivity(myIntent);
     }
-    public void backBuah(View view ){
-        Intent myIntent = new Intent(this,MainActivity.class);
+    public void angka_selesai(View view ){
+        Intent myIntent = new Intent(this,Selesai.class);
         startActivity(myIntent);
     }
 }
