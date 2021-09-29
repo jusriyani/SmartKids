@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MulaiHewan">
+
+    <ImageView
+        android:id="@+id/gambar_anak"
+        android:layout_width="411dp"
+        android:layout_height="208dp"
+        android:src="@drawable/ic_kids"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="5dp"
+        android:onClick="backHewan"
+        tools:ignore="OnClick">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/mbold"
+        android:text="Ayo Mulai"
+        android:textColor="@color/black"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:onClick="mulaiHewan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/round_btn"
+        app:backgroundTint="@color/green"
+        android:fontFamily="@font/mmed"
+        android:text="Ayo Mulai"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+    </Button>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hewan"
+        android:layout_width="182dp"
+        android:layout_height="181dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="fill"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="229dp"
+        android:backgroundTint="@color/blue"
+        android:clickable="true"
+        android:foreground="@drawable/effect"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_hewan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/mmed"
+                android:text="HEWAN"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
