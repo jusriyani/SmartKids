@@ -52,12 +52,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text="Nanas adalah tumbuhan tropis dengan buah yang dapat dimakan dan tumbuhan yang paling penting secara ekonomi. Nanas adalah tumbuhan asli Amerika Selatan, Nanas tumbuh sebagai semak kecil; Bunga individu dari tanaman yang tidak diserbuki menyatu untuk membentuk buah yang banyak."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.695"

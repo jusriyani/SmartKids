@@ -69,12 +69,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text="Kuda adalah salah satu hewan peliharaan yang penting secara ekonomis dan historis, dan telah memegang peranan penting dalam pengangkutan orang dan barang selama ribuan tahun.Kuda dapat ditunggangi oleh manusia dengan menggunakan sadel dan dapat pula digunakan untuk menarik sesuatu, seperti kendaraan beroda, atau bajak."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.26"

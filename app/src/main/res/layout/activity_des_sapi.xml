@@ -69,12 +69,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text="Sapi merupakan mamalia berkaki empat dengan tapak belah. Kebanyakan sapi memiliki tanduk. Sapi dipelihara terutama untuk dimanfaatkan susu dan dagingnya sebagai pangan manusia. Di sejumlah tempat, sapi juga dipakai sebagai penggerak alat transportasi, pengolahan lahan tanam dan alat industri lain (seperti peremas tebu)."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.26"

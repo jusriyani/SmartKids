@@ -52,13 +52,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:layout_marginTop="380dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text=" Beruang adalah binatang buas jenis Ursus, berbulu tebal, dapat berdiri di atas kedua kakinya, bercakar, dan bermoncong panjang.Beruang memiliki indra penciuman dan pendengaran yang ulung, bertelinga bundar, berekor kecil, berbulu yang panjang, lebat dan kasar, Mereka memiliki cakar yang lebar dan berjumlah lima pada telapak tangan yang tak dapat ditarik masuk."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintStart_toStartOf="parent"

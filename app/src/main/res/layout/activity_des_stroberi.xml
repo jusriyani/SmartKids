@@ -52,12 +52,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text="Stroberi disukai banyak orang, terutama karena aromanya yang khas, warna merah cerah yang kaya akan pigmen antosianin yang mengandung antioksidan tinggi dan juga senyawa-senyawa lain seperti serat, vitamin C, potasain dan asam ellagic, dan dikonsumsi dalam jumlah besar baik dimakan langsung atau dalam makanan olahan seperti manisan, jus buah, pie, es krim, milk shake, dan sebagainya."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.695"

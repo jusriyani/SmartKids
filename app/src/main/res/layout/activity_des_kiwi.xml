@@ -45,17 +45,17 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="143dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
+        android:textSize="10sp"
         android:text="Kiwi atau Gosberi China adalah nama yang diberikan kepada buah beri yang bisa dimakan dari beberapa jenis tanaman kayu merambat.Buah ini kaya serat, kulit berwarna cokelat kehijau-hijauan agak kusam dan daging buah berwarna hijau terang atau keemasan dengan deretan biji kecil, hitam, dan bisa dimakan. Tekstur buah ini sangat halus dan rasanya yang manis dan unik"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

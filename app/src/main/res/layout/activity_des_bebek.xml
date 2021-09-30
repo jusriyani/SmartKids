@@ -63,14 +63,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="383dp"
-        android:layout_height="255dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:layout_marginTop="368dp"
         android:background="#F9C330"
         android:fontFamily="@font/mreg"
         android:text=" Bebek atau itik adalah hewan unggas yang banyak menghabiskan waktu di air. agar bisa berenang bebek menggunakan kakinya yang berselaput. bebek merupakan hewan ovipar atau bertelur, tubuh bebek dipenuhi oleh bulu kecuali moncong dan kaki,"
-        android:textSize="20dp"
+        android:textSize="10sp"
         android:textColor="@color/black"
+        android:autoSizeMaxTextSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.695"
